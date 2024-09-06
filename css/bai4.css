@@ -1,0 +1,126 @@
+.khung {
+    width: 90%;
+    border: 2px solid gray;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    text-align: right;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    height: auto; 
+    
+}
+
+.section {
+    padding: 20px;
+    text-align: left;
+    
+
+}
+
+.section1 {
+    flex: 0.75; 
+    background-image: url(../image/Bai4/back.jpg);
+    background-size: 100% 100%;
+}
+.section2 {
+    flex: 3; 
+}
+
+.a1{
+    display: block; 
+    text-decoration: none;
+    color:rgb(118, 68, 167);
+    font-size: 20px;
+    line-height: 50px;
+
+}
+.section1 ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
+
+.section1 li {
+    border-bottom: 1px dashed orange; 
+}
+.khung-van-ban-nho {
+    width: 300px;
+    height: auto;
+    float: right; 
+    padding: 5px 10px;
+    margin-left: 10px; 
+    margin-top: -60px;
+    border-top: 5px solid brown;
+    border-left: 5px solid brown;
+    border-bottom: 5px solid rgb(230, 75, 75);
+    border-right: 5px solid rgb(230, 75, 75);
+    background-color: #f9d5ae;
+}
+
+.clearfix::after {
+    content: ""; 
+    display: table;
+    clear: both; 
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: left; 
+    align-items: left; 
+}
+
+.image{
+    display: block;
+    width: 80%;
+    height: 60%;
+}
+
+
+.text-overlay {
+    position: absolute;
+    color: brown;
+    background-color: rgb(231, 236, 142);
+    padding: 10px;
+}
+
+.top-left {
+    
+    top: 10px;
+    left: 10px;
+}
+
+.top-right {
+    width: 180px;
+    border-top:4px solid gray ;
+    border-left:4px solid gray ;
+    border-bottom:4px solid rgb(171, 169, 169) ;
+    border-right:4px solid rgb(171, 169, 169) ;
+    top: -50px;
+    right: 200px;
+}
+
+
+.bottom-right {
+    width: 180px;
+    border-top:4px solid gray ;
+    border-left:4px solid gray ;
+    border-bottom:4px solid rgb(171, 169, 169) ;
+    border-right:4px solid rgb(171, 169, 169) ;
+    bottom: 140px;
+    right: 200px;
+}
+.middle-left {
+    width: 180px;
+    border-top:4px solid gray ;
+    border-left:4px solid gray ;
+    border-bottom:4px solid rgb(171, 169, 169) ;
+    border-right:4px solid rgb(171, 169, 169) ;
+    top: 50%; 
+    left: -60px; 
+    transform: translateY(-50%); 
+}

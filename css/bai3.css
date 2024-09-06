@@ -1,0 +1,65 @@
+.logo{
+    width: 80%;
+    margin: 10px 0 0 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    height: auto; 
+    
+}
+
+.section {
+    padding: 20px;
+    text-align: left;
+    height: auto;
+    
+
+}
+
+.section1 {
+    flex: 1; 
+    border-right: 2px solid green; 
+    border-bottom: 2px solid green; 
+}
+.section2 {
+    flex: 3; 
+    border-bottom: 2px solid green; 
+}
+.khung{
+    width: 320px;
+    height: 300px;
+    padding: 40px;
+    background-color: #fff;
+    border:10px solid #ccc;
+    
+}
+.a1{
+    display: block; 
+    text-decoration: none;
+    color:rgb(70, 36, 104);
+    font-size: 30px;
+    line-height: 50px;
+}
+.equal-size-heading {
+    width: auto;
+    margin-top: 10px;
+    letter-spacing: 20px;
+    font-size: 35px; /* Hoặc kích thước khác nếu bạn muốn */
+    text-transform: uppercase;
+    color: #fff; /* Ví dụ màu chữ */
+    background-color: green; /* Ví dụ màu nền nếu cần */
+    padding: 7px 70px; /* Điều chỉnh padding nếu muốn */
+    /* Có thể thêm thuộc tính border-radius nếu cần */
+}
+.equal-size-heading2 {
+    width: 300px;
+    margin-top: 10px;
+    font-size: 20px; /* Hoặc kích thước khác nếu bạn muốn */
+    text-transform: uppercase;
+    color: #fff; /* Ví dụ màu chữ */
+    background-color: green; /* Ví dụ màu nền nếu cần */
+    padding: 7px 70px; /* Điều chỉnh padding nếu muốn */
+    /* Có thể thêm thuộc tính border-radius nếu cần */
+}
+
